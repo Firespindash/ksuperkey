@@ -36,14 +36,14 @@ Below are some generic instructions for how to compile ksuperkey from source.
 
 1. Install dependencies. 
 
-   Ubuntu:
+   Debian-based:
     ```
-    $ sudo apt-get install git gcc make libx11-dev libxtst-dev pkg-config
+    $ sudo apt install git gcc make libx11-dev libxtst-dev pkg-config
     ```
 
-    CentOS:
+   Ports-based (Some BSD systems):
     ```
-    $ sudo yum install git gcc make libX11-devel libXtst-devel pkgconfig
+    $ sudo pkg install git gcc libX11 libXtst pkgconf
     ```
 
     On some systems you also need to install the `build-essential` (or
@@ -52,7 +52,7 @@ Below are some generic instructions for how to compile ksuperkey from source.
 2. Clone project and compile:
 
     ```
-    $ git clone https://github.com/hanschen/ksuperkey.git
+    $ git clone https://github.com/Firespindash/ksuperkey.git
     $ cd ksuperkey
     $ make
     ```
