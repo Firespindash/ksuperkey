@@ -7,6 +7,8 @@ such as KDE Plasma < 5.8 and Xfce using the Super key (also known as "Meta" or
 If you hold down the Super key it will still act as a modifier key, allowing
 you to use it for other keyboard shortcuts.
 
+NEW EDIT: This fork has only a change in the Makefile to make it more portable, from me, I actually use this on Mate desktop on BSD
+
 ksuperkey is a small desktop-agnostic application that runs in the background
 as a daemon under X11. It does not work under Wayland.
 ksuperkey was forked from xcape created by Albin Olsson:
